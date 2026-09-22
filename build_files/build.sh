@@ -14,6 +14,8 @@ cp -avf "/ctx/system_files"/. /
 
 # this installs a package from fedora repos
 dnf5 install -y tmux
+dnf5 install -y noctalia
+dnf5 install -y niri
 
 # Use a COPR Example:
 #
